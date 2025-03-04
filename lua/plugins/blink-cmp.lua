@@ -13,7 +13,6 @@ return {
 		cmdline = {
 			keymap = {
 				["<Tab>"] = { "accept" },
-				["<CR>"] = { "accept_and_enter", "fallback" },
 			},
 			completion = { menu = { auto_show = true } },
 		},
