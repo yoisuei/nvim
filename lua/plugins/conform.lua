@@ -9,6 +9,6 @@ return {
 		})
 		vim.keymap.set("n", "<leader>fm", function()
 			require("conform").format({ lsp_fallback = true })
-		end)
+		end, { desc = "general format file" })
 	end,
 }
